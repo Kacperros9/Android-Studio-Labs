@@ -1,0 +1,13 @@
+# Gradle i pliki budowania
+build/
+.gradle/
+*/build/
+
+# Pliki konfiguracyjne IDE
+.idea/
+*.iml
+local.properties
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
