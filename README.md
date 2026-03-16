@@ -21,3 +21,14 @@ Główne stany, przez które przechodzi `Activity`:
 `onPause()` – aktywność traci "focus" (np. użytkownik odbiera połączenie), czas na zapisanie lekkich danych.</br>
 `onStop()` – aktywność nie jest już widoczna.</br>
 `onDestroy()` – całkowite zniszczenie aktywności i zwolnienie zasobów.</br>
+
+
+## 📁 Realizowane mini-projekty
+
+### Lab0102-Timer
+
+<img src="https://github.com/user-attachments/assets/95b54b72-6129-487a-9d82-1efda3e1a636" width="350" />
+
+### Lab0304-GCD-LCM-Calculator
+
+soon..
