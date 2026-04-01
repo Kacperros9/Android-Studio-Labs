@@ -5,7 +5,13 @@ Kolekcja mini-projektów tworzonych w ramach laboratoriów z programowania urzą
 ## Technologie
 * **Język:** Kotlin
 * **Środowisko:** Android Studio
+* **Android Gradle Plugin (AGP):** Wersja `9.0.0`.
 * **Minimum SDK:** API 28 ("Pie"; Android 9.0)
+
+## **Instrukcja uruchomienia lokalnego:**
+1. `git clone https://github.com/Kacperros9/Android-Studio-Labs.git`
+2. Ważne: Nie otwieraj głównego folderu repozytorium w Android Studio, zamiast tego otwórz **konkretny podkatalog** (np. `lab0102_timer` lub `lab0304_kalkulator`) jako niezależny projekt.
+<br>
 
 ## 🔄 Cykl życia aktywności (Activity Lifecycle)
 
