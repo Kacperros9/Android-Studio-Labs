@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.lab0203_gcd_lcm_calculator"
+    namespace = "com.example.lab0304_gcd_lcm_calculator"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.lab0203_gcd_lcm_calculator"
+        applicationId = "com.example.lab0304_gcd_lcm_calculator"
         minSdk = 28
         targetSdk = 36
         versionCode = 1

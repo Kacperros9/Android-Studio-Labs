@@ -1,4 +1,4 @@
-package com.example.lab0203_gcd_lcm_calculator
+package com.example.lab0304_gcd_lcm_calculator
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

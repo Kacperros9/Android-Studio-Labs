@@ -1,4 +1,4 @@
-package com.example.lab0203_gcd_lcm_calculator
+package com.example.lab0304_gcd_lcm_calculator
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
