@@ -5,7 +5,13 @@ Kolekcja mini-projektów tworzonych w ramach laboratoriów z programowania urzą
 ## Technologie
 * **Język:** Kotlin
 * **Środowisko:** Android Studio
+* **Android Gradle Plugin (AGP):** Wersja `9.0.0`.
 * **Minimum SDK:** API 28 ("Pie"; Android 9.0)
+
+## **Instrukcja uruchomienia lokalnego:**
+1. `git clone https://github.com/Kacperros9/Android-Studio-Labs.git`
+2. Ważne: Nie otwieraj głównego folderu repozytorium w Android Studio, zamiast tego otwórz **konkretny podkatalog** (np. `lab0102_timer` lub `lab0304_kalkulator`) jako niezależny projekt.
+<br>
 
 ## 🔄 Cykl życia aktywności (Activity Lifecycle)
 
@@ -22,13 +28,16 @@ Główne stany, przez które przechodzi `Activity`:
 `onStop()` – aktywność nie jest już widoczna.</br>
 `onDestroy()` – całkowite zniszczenie aktywności i zwolnienie zasobów.</br>
 
-
 ## 📁 Realizowane mini-projekty
 
-### Lab0102-Timer
+<details>
+  <summary><b>Lab0102-Timer</b> (Kliknij, aby rozwinąć)</summary>
+  <br>
+  <img src="https://github.com/user-attachments/assets/95b54b72-6129-487a-9d82-1efda3e1a636" width="350" />
+</details>
 
-<img src="https://github.com/user-attachments/assets/95b54b72-6129-487a-9d82-1efda3e1a636" width="350" />
-
-### Lab0304-GCD-LCM-Calculator
-
-soon..
+<details>
+  <summary><b>Lab0304-GCD-LCM-Calculator</b> (Kliknij, aby rozwinąć)</summary>
+  <br>
+  <img src="https://github.com/user-attachments/assets/ed100a71-4431-491c-95e3-6066c2128448" width="350" />
+</details>
