@@ -56,10 +56,6 @@ class MainActivity : AppCompatActivity() {
             studentAdapter.sort(Student.comparatorAccordingToNames)
         }
 
-        binding.accordingToNames.setOnClickListener {
-            studentAdapter.sort(Student.comparatorAccordingToNames)
-        }
-
         binding.avgAsc.setOnClickListener {
             studentAdapter.sort(Student.comparatorAvgAsc)
         }
