@@ -48,9 +48,21 @@ class StudentAdapter(
             holder.avatar.setImageResource(currentStudent.photo)
 
             holder.btnDelete.setOnClickListener {
-                remove(currentStudent)
-                notifyDataSetChanged()
-                Toast.makeText(context, "Usunięto studenta!", Toast.LENGTH_SHORT).show()
+                val dialog = android.app.AlertDialog.Builder(context)
+                    .setTitle("Potwierdzenie")
+                    .setMessage("Czy na pewno chcesz usunąć studenta ${currentStudent.firstName} ${currentStudent.lastName}?")
+                    .setPositiveButton("Tak") { _, _ ->
+                        remove(currentStudent)
+                        notifyDataSetChanged()
+                        android.widget.Toast.makeText(context, "Usunięto studenta!", android.widget.Toast.LENGTH_SHORT).show()
+                    }
+                    .setNegativeButton("Nie", null)
+                    .create()
+
+                dialog.show()
+
+                dialog.getButton(android.app.AlertDialog.BUTTON_POSITIVE).setTextColor(android.graphics.Color.parseColor("#333333"))
+                dialog.getButton(android.app.AlertDialog.BUTTON_NEGATIVE).setTextColor(android.graphics.Color.parseColor("#333333"))
             }
         }
 
