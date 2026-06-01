@@ -9,9 +9,9 @@ import java.util.Locale
 
 @RequiresApi(Build.VERSION_CODES.O)
 class Student(
-    var firstName: String = "John",
-    var lastName: String = "Black",
-    var field: String = "PiT",
+    var firstName: String = "Jan",
+    var lastName: String = "Kowalski",
+    var field: String = "Informatyka",
     var dataOfBirth: String = "1999-12-12",
     var avg: Double = 4.5,
     var photo: Int = 0
@@ -22,7 +22,7 @@ class Student(
     }
 
     override fun toString(): String {
-        return "Name: $firstName\nLast name: $lastName\nField: $field\nAVG: $avg"
+        return "Imię: $firstName\nNazwisko: $lastName\nKierunek: $field\nŚrednia: $avg"
     }
 
     override fun compareTo(other: Student): Int {
@@ -62,9 +62,9 @@ class Student(
         }
 
         fun fillStudents(idsOfPhotos: IntArray) {
-            val firstNames = arrayOf("Jack", "Johny", "Mark", "Sylvester", "Jeremy")
-            val lastNames = arrayOf("Back", "Drake", "Greg", "Stallone", "VanDam")
-            val fields = arrayOf("FE", "PiT", "FM", "FP", "FD")
+            val firstNames = arrayOf("Jacek", "Jan", "Marek", "Sylwester", "Jerzy")
+            val lastNames = arrayOf("Kowalski", "Nowak", "Zieliński", "Wójcik", "Dąbrowski")
+            val fields = arrayOf("Informatyka", "Automatyka", "Zarządzanie", "Ekonomia", "Prawo")
             val dates = arrayOf("1998-01-11", "1995-05-08", "2000-11-11", "1995-03-18", "2005-05-05")
             val averages = doubleArrayOf(4.5, 3.5, 4.8, 5.0, 4.3)
 

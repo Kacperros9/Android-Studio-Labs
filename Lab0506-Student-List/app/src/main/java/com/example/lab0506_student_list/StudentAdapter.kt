@@ -9,7 +9,6 @@ import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 
 class StudentAdapter(
     context: Context,
@@ -52,9 +51,10 @@ class StudentAdapter(
                     .setTitle("Potwierdzenie")
                     .setMessage("Czy na pewno chcesz usunąć studenta ${currentStudent.firstName} ${currentStudent.lastName}?")
                     .setPositiveButton("Tak") { _, _ ->
-                        remove(currentStudent)
+                        Student.ALL_STUDENTS.remove(currentStudent)
+                        this@StudentAdapter.remove(currentStudent)
                         notifyDataSetChanged()
-                        android.widget.Toast.makeText(context, "Usunięto studenta!", android.widget.Toast.LENGTH_SHORT).show()
+                        android.widget.Toast.makeText(context, "Usunięto: ${currentStudent.firstName} ${currentStudent.lastName}", android.widget.Toast.LENGTH_SHORT).show()
                     }
                     .setNegativeButton("Nie", null)
                     .create()
