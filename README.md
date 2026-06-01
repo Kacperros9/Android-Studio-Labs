@@ -1,3 +1,4 @@
+
 # Android-Studio-Labs
 
 Kolekcja mini-projektów tworzonych w ramach laboratoriów z programowania urządzeń mobilnych. Każdy folder zawiera niezależny projekt napisany w języku Kotlin.
@@ -40,4 +41,10 @@ Główne stany, przez które przechodzi `Activity`:
   <summary><b>Lab0304-GCD-LCM-Calculator</b> (Kliknij, aby rozwinąć)</summary>
   <br>
   <img src="https://github.com/user-attachments/assets/ed100a71-4431-491c-95e3-6066c2128448" width="350" />
+</details>
+
+<details>
+  <summary><b>Lab0506-Student-List</b> (Kliknij, aby rozwinąć)</summary>
+  <br>
+  <img width="350" alt="latqclkq0bvpdtyjbag7" src="https://github.com/user-attachments/assets/be63aac0-8b1d-4863-8c31-f549093e81d6" />
 </details>
