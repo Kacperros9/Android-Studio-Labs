@@ -41,3 +41,9 @@ Główne stany, przez które przechodzi `Activity`:
   <br>
   <img src="https://github.com/user-attachments/assets/ed100a71-4431-491c-95e3-6066c2128448" width="350" />
 </details>
+
+<details>
+  <summary><b>Lab0506-Student-List</b> (Kliknij, aby rozwinąć)</summary>
+  <br>
+  <img src="https://github.com/user-attachments/assets/210ffee0-a7b6-427c-b9e2-1af3b283ea75" width="350" />
+</details>
