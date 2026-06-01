@@ -1,3 +1,4 @@
+
 # Android-Studio-Labs
 
 Kolekcja mini-projektów tworzonych w ramach laboratoriów z programowania urządzeń mobilnych. Każdy folder zawiera niezależny projekt napisany w języku Kotlin.
@@ -45,5 +46,5 @@ Główne stany, przez które przechodzi `Activity`:
 <details>
   <summary><b>Lab0506-Student-List</b> (Kliknij, aby rozwinąć)</summary>
   <br>
-  <img src="https://github.com/user-attachments/assets/210ffee0-a7b6-427c-b9e2-1af3b283ea75" width="350" />
+  <img width="350" alt="latqclkq0bvpdtyjbag7" src="https://github.com/user-attachments/assets/be63aac0-8b1d-4863-8c31-f549093e81d6" />
 </details>
