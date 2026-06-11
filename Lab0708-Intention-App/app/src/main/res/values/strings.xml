@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Lab0708-Intention-App</string>
+    <string name="app_title">Aplikacja z Intencjami</string>
+    <string name="btn_second_activity">Otwórz drugą aktywność</string>
+    <string name="btn_camera">Otwórz Aparat</string>
+    <string name="btn_maps">Otwórz Mapy</string>
+    <string name="btn_sms">Wyślij SMS</string>
+    <string name="second_activity_title">To jest Druga Aktywność</string>
+    <string name="btn_back">Powrót</string>
+    <string name="sms_title">Wyślij Wiadomość</string>
+    <string name="label_recipient">Adres (Numer):</string>
+    <string name="label_content">Zawartość:</string>
+    <string name="hint_recipient">Wpisz numer telefonu</string>
+    <string name="hint_content">Wpisz treść wiadomości</string>
+    <string name="btn_send_sms">Wyślij</string>
 </resources>

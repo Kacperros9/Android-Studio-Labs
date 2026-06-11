@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Nowa, jaśniejsza paleta (High Contrast Light) -->
+    <color name="app_background">#FFFFFFFF</color>
+    <color name="surface_light">#FFF5F5F7</color>
+    <color name="text_primary">#FF1C1C1E</color>
+    <color name="text_secondary">#FF8E8E93</color>
+    <color name="border_color">#FF1C1C1E</color>
+    <color name="ripple_color">#1A000000</color>
 </resources>
