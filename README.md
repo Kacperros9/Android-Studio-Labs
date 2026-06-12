@@ -1,4 +1,4 @@
-
+<img width="800" height="1777" alt="Screen_recording_20260612_145240-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/8aac7f26-1a05-442b-877b-f0905022a200" />
 # Android-Studio-Labs
 
 Kolekcja mini-projektów tworzonych w ramach laboratoriów z programowania urządzeń mobilnych. Każdy folder zawiera niezależny projekt napisany w języku Kotlin.
@@ -46,5 +46,11 @@ Główne stany, przez które przechodzi `Activity`:
 <details>
   <summary><b>Lab0506-Student-List</b> (Kliknij, aby rozwinąć)</summary>
   <br>
-  <img width="350" alt="latqclkq0bvpdtyjbag7" src="https://github.com/user-attachments/assets/be63aac0-8b1d-4863-8c31-f549093e81d6" />
+  <img src="https://github.com/user-attachments/assets/be63aac0-8b1d-4863-8c31-f549093e81d6" width="350" />
+</details>
+
+<details>
+  <summary><b>Lab0708-Intention-App</b> (Kliknij, aby rozwinąć)</summary>
+  <br>
+  <img src="https://github.com/user-attachments/assets/4f498269-f2e2-458c-bea0-cfb4368552a1" width="350" />
 </details>
