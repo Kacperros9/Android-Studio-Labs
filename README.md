@@ -1,4 +1,3 @@
-<img width="800" height="1777" alt="Screen_recording_20260612_145240-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/8aac7f26-1a05-442b-877b-f0905022a200" />
 # Android-Studio-Labs
 
 Kolekcja mini-projektów tworzonych w ramach laboratoriów z programowania urządzeń mobilnych. Każdy folder zawiera niezależny projekt napisany w języku Kotlin.
